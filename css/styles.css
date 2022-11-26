@@ -11486,3 +11486,29 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.Comollegar{
+
+    overflow:hidden;
+
+    padding-bottom:40%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.Comollegar iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
