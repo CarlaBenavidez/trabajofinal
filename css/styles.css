@@ -12,6 +12,11 @@ y
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .consulta{
+
+  justify-content:space-between;
+
+}
 
  .Comollegar{
 
@@ -728,6 +733,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: space-between;
 }
 .row > * {
   flex-shrink: 0;
@@ -7832,6 +7838,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  text-align: center;
 }
 
 .text-black-50 {
@@ -11553,3 +11560,7 @@ width: 100%}
 
 
                 .contenedor {font-family:cour}
+
+
+.WA {  height: 20vh;
+  width: 20vh;}
