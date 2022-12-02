@@ -12,13 +12,15 @@ y
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+
  .consulta{
 
   justify-content:space-between;
 
 }
 
- .Comollegar{
+ .Productos{
 
      overflow:hidden;
 
@@ -30,7 +32,7 @@ y
 
  }
 
- .Comollegar iframe{
+ .Productos iframe{
 
      left:0;
 
@@ -736,6 +738,25 @@ progress {
   justify-content: space-between;
 }
 .row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row2 {
+  --bs-gutter-x: 3rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: space-evenly;
+}
+.row2 > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -4570,15 +4591,15 @@ textarea.form-control-lg {
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffc107;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.7rem;
+    align-items: center;
 }
 .card > hr {
   margin-right: 0;
