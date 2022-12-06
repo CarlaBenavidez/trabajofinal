@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title>Miel - La Helena</title>
 
         <script src=" http://code.jquery.com/jquery-latest.js">
 
         </script>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
         <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
         <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
 
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet">
 
 
-    <body id="page-top">
-      <section class = "contenido">
+    <style>.d-none {
+    display: none;
+}
+.invalid-feedback {
+    display: none;
+}
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}</style></head><body id="page-top">
+      <section class="contenido">
 
 
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 navbar-shrink" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">Inicio</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -43,7 +50,7 @@
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#Historia">Historia</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Servicios">Servicios</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#Productos">Productos</a></li>
+                           <li class="nav-item"><a class="nav-link active" href="#Productos">Productos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                                                    <li class="nav-item"><a class="nav-link" href="#Contactanos">Contactanos</a></li>
 
@@ -60,7 +67,7 @@
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
                         <img src="./assets/img/logoprincipal.png" class="card-img-top" alt="...">
-                        <hr class="divider" />
+                        <hr class="divider">
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">
@@ -80,7 +87,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">Nuestra historia</h2>
-                        <hr class="divider divider-light" />
+                        <hr class="divider divider-light">
                         <p class="text-white-75 mb-4">
 Somos Giuli, Santo, Tomi y Guido.
 Durante el 2021 decidimos retomar un oficio que ya existía en la familia: la apicultura. Apoyandonos en lo que ya sabía nuestro abuelo, comenzamos con nuestras primeras 50 colmenas. En octubre de 2021 llegaron y las acomodamos en nuestro campo en Marcos Juarez. En marzo de 2022 pudimos llevar adelante nuestra primera cosecha y a mediados de año decidimos crecer aún más, incorporando a nuestro apiario 50 colmenas más
@@ -91,13 +98,13 @@ Durante el 2021 decidimos retomar un oficio que ya existía en la familia: la ap
             </div>
         </section>
         <!-- Servicios-->
-        <section class="page-section" id="Servicios"  style="padding-top: 5%";>
+        <section class="page-section" id="Servicios" style="padding-top: 5%" ;="">
 
 
 
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Servicios</h2>
-                <hr class="divider" />
+                <hr class="divider">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
@@ -146,20 +153,22 @@ local_shipping
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
 
-                        <a class="btn btn-light2 btn-xl" href="#Historia"  style="
+                        <a class="btn btn-light2 btn-xl" href="#Historia" style="
 padding-top: 0px;
-padding-bottom: 0px;"><span class="material-icons">
+padding-bottom: 0px;
+
+"><span class="material-icons">
 expand_less
 </span></a> <a class="btn btn-light2 btn-xl" href="#portfolio" style="
 padding-top: 0px;
 padding-bottom: 0px;
 "><span class="material-icons">
-chevron_right
+expand_more
 </span></a>
                     </div>
                 </div>
             </div>
-            </div>
+
 
             </section>
 <br>
@@ -170,7 +179,7 @@ chevron_right
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Tomando unos mates">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="...">
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Tomando unos mates</div>
@@ -179,7 +188,7 @@ chevron_right
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="...">
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -188,7 +197,7 @@ chevron_right
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="...">
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -197,7 +206,7 @@ chevron_right
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="...">
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -206,7 +215,7 @@ chevron_right
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="...">
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -215,7 +224,7 @@ chevron_right
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="...">
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -229,7 +238,7 @@ chevron_right
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
 
-                    <a class="btn btn-light2 btn-xl" href="#Servicios"  style="
+                    <a class="btn btn-light2 btn-xl" href="#Servicios" style="
 padding-top: 0px;
 padding-bottom: 0px;"><span class="material-icons">
 expand_less
@@ -245,13 +254,13 @@ expand_more
 
         <!-- Contactanos-->
 
-        <section class="page-section" id="Contactanos"  style="padding-top: 5%";>
+        <section class="page-section" id="Contactanos" style="padding-top: 5%" ;="">
 
 
 
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Sigamos en contacto</h2>
-                <hr class="divider" />
+                <hr class="divider">
 
 <p>Tenes alguna consulta? Escribinos por alguno de estos medios y te contestamos lo mas rapido posible!</p>
 
@@ -283,7 +292,7 @@ expand_more
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
 
-                          <a href ="https://wa.me/+543415970950" target="_blank">
+                          <a href="https://wa.me/+543415970950" target="_blank">
                           <img src="assets/img/WA.png" alt="wa" class="WA"></a>
 
                           <br>
@@ -310,9 +319,10 @@ expand_more
                     </div>
                     <div class="container px-4 px-lg-5">
                         <div class="row gx-4 gx-lg-5 justify-content-center">
+                            |
                             <div class="col-lg-8 text-center">
 
-                                <a class="btn btn-light2 btn-xl" href="#portfolio"  style="
+                                <a class="btn btn-light2 btn-xl" href="#portfolio" style="
     padding-top: 0px;
     padding-bottom: 0px;"><span class="material-icons">
     expand_less
@@ -345,7 +355,7 @@ expand_more
   <section>
 
 
-                                <main class="container-fluid" id="Productos" >
+                                <main class="container-fluid" id="Productos">
 
                                       <h2 class="text-center mt-0">Productos</h2>
                                       <hr class="divider" style="
@@ -364,7 +374,7 @@ expand_more
                                                   <div class="card-body">
                                                     <h5 class="card-title">Miel de pradera</h5>
                                                           <p class="text-muted mb-0">Envase de 250grs </p>
-                                                    <a href="https://www.serargentino.com/gastronomia/amargo-obrero-el-trago-mas-argentino" target="_blank" class="btn btn-primary">Ir a la receta</a>
+                                                    <a href="https://www.serargentino.com/gastronomia/amargo-obrero-el-trago-mas-argentino" target="_blank" class="btn btn-primary2">Ir a la receta</a>
                                                   </div>
                                               </div>
                                               <div class="col-sm-12 col-md-6 col-lg-6 card" style="width: 25rem;margin-bottom: 2vh;margin-top: 2vh;padding-bottom: 1vh;padding-top: 1vh>;padding-top: 1vh;" <br="">
@@ -373,7 +383,7 @@ expand_more
                                                   <div class="card-body">
                                                     <h5 class="card-title">Miel de pradera</h5>
                                                           <p class="text-muted mb-0">Envase de 500grs </p>
-                                                    <a href="https://www.comedera.com/como-hacer-papas-rusticas/" target="_blank" class="btn btn-primary">Ir a la receta</a>
+                                                    <a href="https://www.comedera.com/como-hacer-papas-rusticas/" target="_blank" class="btn btn-primary2">Ir a la receta</a>
                                                   </div>
                                               </div>
                                               <div class="col-sm-12 col-md-6 col-lg-6 card" style="width: 25rem;margin-bottom: 2vh;margin-top: 2vh;padding-bottom: 1vh;padding-top: 1vh>;padding-top: 1vh;" <br="">
@@ -382,7 +392,7 @@ expand_more
                                                   <div class="card-body">
                                                     <h5 class="card-title">Miel de pradera </h5>
                                                     <p class="text-muted mb-0">Envase de 1Kg. </p>
-                                                    <a href="https://cookpad.com/ar/recetas/118513-helado-de-crema-rusa" target="_blank" class="btn btn-primary">Ir a la receta</a>
+                                                    <a href="https://cookpad.com/ar/recetas/118513-helado-de-crema-rusa" target="_blank" class="btn btn-primary2">Ir a la receta</a>
                                                   </div>
                                               </div>
 
@@ -406,7 +416,7 @@ expand_more
 
 
 
-                                  <div id="iconFlex2"style="
+                                  <div id="iconFlex2" style="
     padding-top: 5%;
     padding-bottom: 5%;
 ">
@@ -428,21 +438,14 @@ expand_more
 
 
                                     <a href="https://wa.me/+543415970950" target="_blank">
-                                    <img src="assets/img/WA.png" alt="wa" class="icon"></a
-
-
-
-
-
-
-                                  </div> </div>
+                                    <img src="assets/img/WA.png" alt="wa" class="icon"></a> </div>
 
 
 
 
                                   <div class="conteiner">
 
-                                                <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Miel "La Helena"</div></div>
+                                                <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright © 2022 - Miel "La Helena"</div></div>
                                                 <div class="container px-4 px-lg-5"><div class="small text-center text-muted">ATW13TS carla</div></div>
 
 
@@ -465,7 +468,7 @@ expand_more
 
 
     <a href="#page-top">
-<img class="iconowap" src="./assets/img/flecha2.png"></a>
+<img class="iconowap" src="./assets/img/flecha2.png" style="display: block;"></a>
 
 
         <!-- Bootstrap core JS-->
@@ -479,7 +482,8 @@ expand_more
         <!-- * * Activate your form at https://startbootstrap.com/solution/Contactanos-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-</section>
 
-    </body>
-</html>
+
+
+
+</body></html>
