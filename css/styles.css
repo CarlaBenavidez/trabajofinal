@@ -3127,6 +3127,26 @@ textarea.form-control-lg {
   background-color: #6e5c78ff;
   border-color: #c34e2e;
 }
+
+
+.btn-primary2 {
+  color: #fff;
+  background-color: yellow;
+  border-color: #d9b842ff;
+      margin-top: 4vh;
+}
+.btn-primary2:hover {
+  color: #fff;
+  background-color: #6e5c78ff;
+  border-color: #c34e2e;
+}
+
+
+
+
+
+
+
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #cf5331;
@@ -3312,11 +3332,16 @@ textarea.form-control-lg {
   color: #000;
   background-color:none;
   border-color: none;
+  padding: 0%;
+  border-radius: 0rem;
+
 }
 .btn-light2:hover {
   color: #000;
-  background-color: black;
+  background-color: none;
   border-color: none;
+  border-radius: 0rem;
+
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -4617,7 +4642,8 @@ textarea.form-control-lg {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.7rem;
-    align-items: center;
+    flex-wrap: wrap;
+  align-items: flex-start;
 }
 .card > hr {
   margin-right: 0;
@@ -4645,6 +4671,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  padding-bottom: 0px;
 }
 
 .card-title {
@@ -7903,7 +7930,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
-  text-align: center;
+      margin-top: 2vh;
 }
 
 .text-black-50 {
@@ -11630,8 +11657,6 @@ width: 100%}
 
 .WA {  height: 20vh;
   width: 20vh;}
-
-
 
 
   .iconowap {
