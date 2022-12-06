@@ -11630,3 +11630,22 @@ width: 100%}
 
 .WA {  height: 20vh;
   width: 20vh;}
+
+
+
+
+  .iconowap {
+    width: 20px;
+  position: fixed;
+  bottom: 73%;
+  right: 10%;
+  cursor:pointer;
+  display:none;
+
+  }
+
+
+  .iconowap:hover {
+      transform: scale(1.3);
+
+  }
