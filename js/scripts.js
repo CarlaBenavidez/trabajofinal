@@ -57,3 +57,21 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$(document).ready(function(){
+
+	$('.iconowap').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.iconowap').slideDown(300);
+		} else {
+			$('.iconowap').slideUp(300);
+		}
+	});
+
+});
