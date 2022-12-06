@@ -59,20 +59,19 @@ window.addEventListener("DOMContentLoaded", event => {
 });
 
 // Flecha que lleva arriba de la pagina
-
 $(document).ready(function(){
 
-	$(".iconowap").click(function(){
-		$("body, html").animate({
-			scrollTop: "0px"
-		}, 300);
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 1500);
 	});
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
-			$(".iconowap").slideDown(300);
+			$('.ir-arriba').slideDown(1500);
 		} else {
-			$(".iconowap").slideUp(300);
+			$('.ir-arriba').slideUp(1500);
 		}
 	});
 
