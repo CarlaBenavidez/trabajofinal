@@ -12,8 +12,6 @@ y
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-
-
  .consulta{
 
   justify-content:space-between;
@@ -84,6 +82,7 @@ y
   --naranja:#d18b04ff;
   --amarilloclaro:#f2ce04ff;
   --amarillooscuro:#d18b04ff;
+
 
   --bs-primary-rgb: 110, 92, 120;
   --bs-secondary-rgb: 108, 117, 125;
@@ -3110,7 +3109,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(63, 110, 55, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -3130,15 +3129,15 @@ textarea.form-control-lg {
 
 
 .btn-primary2 {
-  color: #fff;
-  background-color: yellow;
+  color: #466f42;
+  background-color: #f2ce04ff ;
   border-color: #d9b842ff;
       margin-top: 4vh;
 }
 .btn-primary2:hover {
-  color: #fff;
-  background-color: #6e5c78ff;
-  border-color: #c34e2e;
+  color: black;
+  background-color: #3f6e37ff;
+  border-color: #f2ce04ff;
 }
 
 
@@ -3151,15 +3150,15 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #cf5331;
   border-color: #c34e2e;
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(63, 110, 55, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c34e2e;
+  background-color: #6e5c78ff;
   border-color: #b74a2c;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(63, 110, 55, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -3324,7 +3323,7 @@ textarea.form-control-lg {
 }
 .btn-light:hover {
   color: #000;
-  background-color: #f9fafb;
+  background-color: #3f6e37ff;
   border-color: #f9fafb;
 }
 
@@ -4638,7 +4637,7 @@ textarea.form-control-lg {
     display: flex;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #ffc107;
+    background-color: #ffeeb9;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.7rem;
@@ -11624,7 +11623,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .material-icons {font-size: 60px;
-color: #95a937ff;}
+color: #3f6e37ff;}
 
 
 footer {
@@ -11655,8 +11654,12 @@ width: 100%}
                 .contenedor {font-family:cour}
 
 
-.WA {  height: 20vh;
-  width: 20vh;}
+.WA {  height: 10vh;
+  width: 10vh;}
+
+
+  .WA2 {  height: 10vh;
+    width: 12vh;}
 
 
   .iconowap {
@@ -11674,3 +11677,5 @@ width: 100%}
       transform: scale(1.3);
 
   }
+
+  
