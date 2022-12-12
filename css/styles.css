@@ -4613,7 +4613,7 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-top2
 .card-img-bottom {
-  width: 40%; 
+  width: 40%;
 }
 
 
@@ -11405,7 +11405,7 @@ hr.divider-light {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-bottom: calc(19rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/pantalla.png");
   background-position: center;
   background-repeat: no-repeat;
