@@ -11539,7 +11539,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #d4cdcc;
+    background-color: #eaeaea;
    padding: 1%;
 width: 100%}
 
@@ -11562,12 +11562,23 @@ width: 100%}
                 .contenedor {font-family:cour}
 
 
-.WA {  height: 8vh;
-  width: 8vh;}
+.WA {  height: 10vh;
+  width: 10vh;}
 
 
-  .WA2 {  height: 8vh;
-    width: 10vh;}
+  .WA2 {  height: 10vh;
+    width: 12vh;}
+
+    .WA:hover {
+        transform: scale(1.5);
+
+    }
+
+
+      .WA2:hover {
+          transform: scale(1.5);
+
+      }
 
 
   .iconowap {
@@ -11605,6 +11616,7 @@ width: 100%}
     margin-top: var(--bs-gutter-y);
   }
 
+
   .material-icons {font-size: 60px;
   color: #3f6e37ff;}
 
@@ -11629,3 +11641,11 @@ width: 100%}
 
     .text-muted
     {text-align: left;}
+
+    .page-section2 {
+      padding: 7rem 0;
+      background-color: #eaeaea;
+        background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }
