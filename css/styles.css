@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+background-color: #95a93730;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11572,6 +11572,12 @@ width: 100%}
 
 
 
+                                                                              .icon4 {
+                                                                                              height: 100%;
+                                                                                              width: 11vh;
+                                                                                              margin-left: 44px;
+}
+                                                                                            }
 
 
                 .contenedor {font-family:cour}
@@ -11617,7 +11623,11 @@ width: 100%}
                                                   transform: scale(5);
 
                                                 }
-                                                                                  .icon:hover {
+
+                                                                                  .icon4:hover {
+                                                                                                  transform: scale(1.5);
+
+                                                                                                }                      .icon:hover {
                                                                                                   transform: scale(2);
                                                                                                 }
                                                                                                                                   .icon2:hover {
