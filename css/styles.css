@@ -596,7 +596,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -885,7 +885,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
+  --bs-gutter-x: 0rem;
 }
 
 .g-5,
@@ -1098,7 +1098,7 @@ progress {
 
   .g-sm-5,
 .gx-sm-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 0rem;
   }
 
   .g-sm-5,
@@ -1311,7 +1311,7 @@ progress {
 
   .g-md-5,
 .gx-md-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 0rem;
   }
 
   .g-md-5,
@@ -1524,7 +1524,7 @@ progress {
 
   .g-lg-5,
 .gx-lg-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 0rem;
   }
 
   .g-lg-5,
@@ -1737,7 +1737,7 @@ progress {
 
   .g-xl-5,
 .gx-xl-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 0rem;
   }
 
   .g-xl-5,
@@ -1950,7 +1950,7 @@ progress {
 
   .g-xxl-5,
 .gx-xxl-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 0rem;
   }
 
   .g-xxl-5,
@@ -3944,7 +3944,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem ;
   color: #6e5c78ff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -11615,6 +11615,7 @@ width: 100%}
 
                                   .icon3:hover {
                                                   transform: scale(5);
+
                                                 }
                                                                                   .icon:hover {
                                                                                                   transform: scale(2);
@@ -11625,7 +11626,7 @@ width: 100%}
 
 
   .row2 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 1rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -11667,7 +11668,7 @@ width: 100%}
 
 
     .text-muted
-    {text-align: left;}
+    {text-align: center;}
 
     .page-section2 {
       padding: 7rem 0;
